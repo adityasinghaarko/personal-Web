@@ -70,6 +70,7 @@ p{
     width: 343px;
     height: 215px;
 }
+
 .inquiry{
     width: 600px;
     height: 150px;
@@ -82,9 +83,22 @@ p{
 .inquiry h2{
     color: white;
 }
-
 .inquiry a{
     float: right;
+}
+.social-medias{
+    height: 230px;
+    text-align: center;
+}
+.social-media{
+    float: left;
+    width: 40%;
+    margin: 10px 30px;
+}
+.stick{
+    border-left: 2px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
 .footer{
     margin: 70px 100px;
@@ -97,9 +111,8 @@ p{
     font-size:x-large;
 }
 .icons{
-    
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 500px;
+    margin-right: 300px;
     height: 50px;
     width: 135px;
 }
