@@ -1,4 +1,13 @@
-
+.menu-bar{
+    height: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.menu-bar-options{
+    float: right;
+    text-decoration: none;
+    margin: 3px 10px;
+}
 
 .highlight{
     color: #ff8367;
@@ -52,25 +61,64 @@ p{
 .single-project{
     float: left;
     width: 25%;
-    border: 1px solid ;
     border-radius: 10px;
     margin: 10px 3%;
     padding: 10px;
-    box-shadow: 3px 3px 10px dimgray,-3px -3px 10px dimgray;
+    box-shadow: 3px 3px 20px dimgray,-3px -3px 20px dimgray;
 }
 .single-project img{
     width: 343px;
     height: 215px;
+}
+.inquiry{
+    width: 600px;
+    height: 150px;
+    border-radius: 25px;
+    padding: 10px 100px 10px 60px;
+    margin: 100px 300px;
+    background-image: url(images/inquiry-background.png);
+    background-size: cover ;
+}
+.inquiry h2{
+    color: white;
+}
+
+.inquiry a{
+    float: right;
+}
+.footer{
+    margin: 70px 100px;
+    text-align: center;
+}
+.footer h1{
+    font-size:20px;
+}
+.footer p{
+    font-size:x-large;
+}
+.icons{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 50px;
+    width: 135px;
+}
+.single-icon{
+    float: left;
+    margin: 10px;
+}
+.single-icon img{
+    height: 25px;
+    width: 25px;
 }
 img{
     width: 100%;
 }
 
 .anchor-button{
-    border: 2px solid;
     border-radius: 4px;
     padding: 5px 10px;
-    background-image: linear-gradient(45deg, dodgerblue,deepskyblue);
+    background-image: linear-gradient(45deg, magenta, orchid);
     color: white;
     text-decoration: none;
 }
